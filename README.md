@@ -1,49 +1,81 @@
-## Photos
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
 
-AI Powered Facial Recognition & Photos Clustering (like Google Photos) for your Frappe sites.
+Revolutionizing photo organization with AI-powered facial recognition and photo clustering technology.
+<br/>
+<a href="https://grow.empress.eco/">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/photos/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/photos/issues/new/choose">Request Feature</a>
+</div>
 
-[![Try on Frappe Cloud](https://github.com/gavindsouza/photos/raw/main/.github/assets/try-on-fc.png)](https://frappecloud.com/marketplace/apps/photos?referrer=a6d8da54)
+## About The Project
 
-#### Demo
+Photos is an innovative tool designed to transform your photo management experience. It utilizes AI-powered facial recognition and photo clustering technology, similar to Google Photos, enabling efficient interaction with your image files. 
 
-<video src="https://user-images.githubusercontent.com/36654812/199225140-0790b589-6d0d-4f34-b45d-294b0b061831.mp4" data-canonical-src="https://user-images.githubusercontent.com/36654812/199225140-0790b589-6d0d-4f34-b45d-294b0b061831.mp4" style="max-height:480px; min-height: 200px; width: -webkit-fill-available;" controls muted>
-</video>
+### Key Features
 
-Clone the repo and run `docker compose up` in the demo folder to spin up a demo instance :)
+- AI-powered facial recognition 
+- Efficient photo clustering
+- Tailored gallery UI 
+- Easy integration with Empress sites 
 
-#### Usage
+### Built With
 
-You may follow these steps to try out Photos:
+This project leverages the following major technologies:
 
-1. Login to Desk
-1. Upload a new Image file
-1. Navigate to the latest Photo Document
-1. Scroll down to see the human faces detected
-1. Click on each face to show label & more information
-1. If label is not set for a given ROI, add it
+- [Vue 3](https://v3.vuejs.org/)
+- [Framework](https://Empressframework.com)
 
-Photos gets better the more images you store and the more people you label. It may make a few mistakes guessing the names of the people, but it gets better with more data!
+## Getting Started
 
-#### Installation
+### Prerequisites
 
-Installation is pretty straightforward **IF** you're accustomed to [Frappe](https://frappeframework.com)  Apps:
+Familiarity with Empress Apps is beneficial for the installation process. If you're new to Empress, you can refer to their [documentation](https://Empressframework.com/docs/v14/user/en/installation).
 
-1. `bench get-app https://github.com/gavindsouza/photos`
-1. `bench --site photos-site install-app photos`
+### Installation
 
-If you don't know that and still want to try it out, here's the Frappe documentation for the same - https://frappeframework.com/docs/v14/user/en/installation.
+Follow these steps to set up a development environment:
 
-#### More Information
+```sh
+# Clone the repository
+git clone https://github.com/empress-eco/photos.git
 
-This project consists of:
+# Navigate into the directory
+cd photos
 
-- Photos: A Frappe App that contains the backend logic & Admin views
-- Gallery: A Vue 3 App that contains the tailored gallery UI _[WIP]_
+# Run the Docker Compose
+docker compose up
+```
 
-#### Motivation
+## Usage
 
-The initial inspiration for this project was to be an `Open Source Alternative to Google Photos`. However, I've only been able to make a week's time for this in 2 years. If you're seriously looking for an open source alternative to Google Photos, I'd recommend https://photoprism.app/ which is everyting I wanted to build when I thought of doing this back in 2018 ^_^
+After installation, you can start using Photos:
 
-#### License
+1. Login to your desk.
+2. Upload a new image file.
+3. Navigate to the latest Photo Document.
+4. Scroll down to see recognized human faces.
+5. Click on each face to show labels and more information.
+6. If a label is not set for a given ROI, add it.
 
-[MIT](LICENSE)
+Remember, Photos improves with more images and labels you add! It might make a few mistakes initially, but it gets better with more data.
+
+## Contributing
+
+We welcome contributions! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/IncredibleFeature`)
+3. Commit your Changes (`git commit -m 'Add some IncredibleFeature'`)
+4. Push to the Branch (`git push origin feature/IncredibleFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
+
+## Acknowledgements
+
+Special thanks to the Empress Community for providing the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
